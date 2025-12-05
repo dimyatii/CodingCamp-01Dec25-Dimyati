@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+  <title>bootcamp revoU</title>
+</head>
+<body>
+  
+   <!-- Main Header -->
+  <header class="main-header">
+    <!-- Logo -->
+    <div class="logo"></div>
+
+    <!-- Navigasi Bar -->
+    <nav class="nav-links">
+        <a href="#home-page">Home</a>
+        <a href="#form-page">Add Task</a>
+        <a href="#task-list">Task List</a>
+        <a href="#about">About</a> 
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>  
+    <section class="home-page" id="home-page">
+      <h1>Hi <span id="username" class="span"></span>, welcome to your Task Manager app!👋😁</h1>
+      <p>Buat daftar tugasmu sekarang!</p>
+    </section>
+
+    <!-- form todo app -->
+    <section class="form-page" id="form-page">
+      <p>My To-Do List</p>
+  
+      <form class="form-container" id ="todo-form">
+        <div class="form-input">
+          <label for="name">Nama</label>
+          <input type="text" id="users" name="name" required>
+        </div>
+
+        <div class="form-input">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-input">
+          <label for="date">Tanggal dibuat</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+
+        <div class="form-input">
+          <label for="description">Deskripsi</label>
+          <textarea id="description" name="description" required></textarea>
+        </div>
+
+        <div class="form-input">
+          <div></div>
+          <button type="submit" class="btn-submit">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- tabel untuk menampilkan data todo -->
+  <section class="table-todo" id="task-list">
+    <table class="main-table"> 
+      <thead class="judul-table">
+        <tr>
+          <th>Nama</th>
+          <th>Email</th>
+          <th>Tanggal</th>
+          <th>Deskripsi</th>
+        </tr>
+      </thead>
+      <!-- isi dari form -->
+      <tbody id="table-body">
+        <!-- isi akan ditampilkan di sini oleh JavaScript -->
+      </tbody>
+    </table>
+  </section>
+</main>
+
+<footer id="about">
+    <p>Ini adalah website pertama yang saya buat sebagai mini project dalam program CodingCamp yang diselenggarakan oleh RevoU 💕. Project ini bertujuan untuk melatih kemampuan dasar saya dalam pengembangan web, mulai dari struktur HTML, styling dengan CSS, hingga penerapan JavaScript untuk membuat fitur yang interaktif. Melalui mini project ini, saya belajar bagaimana membangun aplikasi sederhana yang fungsional sekaligus meningkatkan pemahaman saya mengenai alur kerja dalam pembuatan sebuah website.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
