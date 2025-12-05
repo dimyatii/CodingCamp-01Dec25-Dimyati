@@ -103,10 +103,9 @@ body {
   font-size: 18px;
   color: #464444;
   margin-left: -60px;
-  background-color: #e2fce9;
   padding: 5px;
   border-radius: 5px;
-  border:1px solid #8494ec ;
+  /
 }
 .form-container label::after {
   content: " :";
@@ -168,6 +167,17 @@ body {
     padding-top: 10px;
     border-top: #222222 1px solid;
     padding-top: 100px;
+
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(45, 58, 59);
+}
+
+.table-todo p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }
 
 .main-table tr th{
@@ -218,6 +228,19 @@ footer {
 
     .main-header {
         justify-content: center;
+    }
+
+    .judul-table tr th {
+        font-weight: normal;
+        font-size: 15px;
+    }
+
+    .main-table tr th{
+    font-size: 15px;
+    }
+
+    .table-todo {
+        font-weight: normal;
     }
 
     
