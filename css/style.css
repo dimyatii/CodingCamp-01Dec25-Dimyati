@@ -200,6 +200,10 @@ footer {
     font-size: 18px;
 }
 
+tbody{
+        font-weight: normal;
+}
+
 
 /* responsive design untuk tampilan form di perangkat mobile */
 @media (max-width: 600px) {
