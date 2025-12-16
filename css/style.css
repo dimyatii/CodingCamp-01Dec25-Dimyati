@@ -156,27 +156,28 @@ body {
 
 .judul-table {
     border: #222222 1px solid;
-    color: rgb(0, 0, 0);
+    color: rgb(51, 51, 51);
     font-size: 20px;
-    background-color: #c6cbe2;
+    background-color: #87c0b7;
 }
 
 .table-todo {
     height: 100vh;
-    background-color: #dbdff7;
+    background-color: #3bac99;
     padding-top: 10px;
     border-top: #222222 1px solid;
     padding-top: 100px;
 
     text-align: center;
     font-size: 24px;
-    font-weight: bold;
-    color: rgb(45, 58, 59);
+    /* font-weight: bold; */
+    color: rgb(27, 29, 29);
 }
 
 .table-todo p{
     margin-top: 50px;
     margin-bottom: 50px;
+    color: rgb(14, 13, 13);
 
 }
 
@@ -195,8 +196,8 @@ body {
 footer {
     text-align: center;
     padding: 50px;
-    background-color: #c6cbe2;
-    color: #333;
+    background-color: #232324;
+    color: #dddcdc;
     font-size: 18px;
 }
 
